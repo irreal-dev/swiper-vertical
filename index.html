@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swiper-Vertical</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Poppins:ital,wght@0,100;0,400;0,500;0,700;0,800;1,600&display=swap" rel="stylesheet">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+    
+
+</head>
+<body>
+
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide" style="background-image: url(/img/1.jpg); object-fit: cover;">
+                <!-- <img src="/img/1.jpg" alt=""> -->
+                <div class="image-overlay-content">
+                    <h2>WEBSITE SERVICES</h2>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum culpa maiores fugiat voluptate. Qui numquam harum repellat veniam, voluptatum est cum, nihil, maxime nostrum saepe dignissimos aperiam officia non quaerat.
+                    </p>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <!-- <img src="/img/2.jpg" alt=""> -->
+               
+                <div class="slide-content">
+                    <h2>Welcome to my website</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui mollitia, saepe ad deleniti quod dolore aliquid illo nam nobis ipsam architecto est doloremque magnam repellat odio iste error quas sit!
+                    </p>
+                </div>
+            </div>
+            <div class="swiper-slide" style="background-image: url(/img/3.jpg);">
+                <!-- <img src="/img/3.jpg" alt=""> -->
+                <div class="image-overlay-content">
+                    <h2>CONTACT PLACE</h2>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum culpa maiores fugiat voluptate. Qui numquam harum repellat veniam, voluptatum est cum, nihil, maxime nostrum saepe dignissimos aperiam officia non quaerat.
+                    </p>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <!-- <img src="/img/4.jpg" alt=""> -->
+                <div class="slide-content">
+                    <h2>Last Projects</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui mollitia, saepe ad deleniti quod dolore aliquid illo nam nobis ipsam architecto est doloremque magnam repellat odio iste error quas sit!
+                        </p>
+                </div>
+            </div>
+            <div class="swiper-slide" style="background-image: url(/img/5.jpg);">
+                <!-- <img src="/img/5.jpg" alt=""> -->
+                <div class="image-overlay-content">
+                    <h2>COLABORATIONS</h2>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum culpa maiores fugiat voluptate. Qui numquam harum repellat veniam, voluptatum est cum, nihil, maxime nostrum saepe dignissimos aperiam officia non quaerat.
+                    </p>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <!-- <img src="/img/6.jpg" alt=""> -->
+                <div class="slide-content">
+                    <h2>Work in Progress</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui mollitia, saepe ad deleniti quod dolore aliquid illo nam nobis ipsam architecto est doloremque magnam repellat odio iste error quas sit!
+                        </p>
+                </div>
+            </div>
+            <div class="swiper-slide" style="background-image: url(/img/7.jpg);">
+                <!-- <img src="/img/7.jpg" alt=""> -->
+                <div class="image-overlay-content">
+                    <h2>SOCIAL MEDIA</h2>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum culpa maiores fugiat voluptate. Qui numquam harum repellat veniam, voluptatum est cum, nihil, maxime nostrum saepe dignissimos aperiam officia non quaerat.
+                    </p>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <!-- <img src="/img/8.jpg" alt=""> -->
+                <div class="slide-content">
+                    <h2>Welcome to my Portfolio</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui mollitia, saepe ad deleniti quod dolore aliquid illo nam nobis ipsam architecto est doloremque magnam repellat odio iste error quas sit!
+                        </p>
+                </div>
+            </div>
+            <div class="swiper-slide" style="background-image: url(/img/9.jpg);">
+                <!-- <img src="/img/9.jpg" alt=""> -->
+                <div class="image-overlay-content">
+                    <h2>TESTIMONIALS</h2>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum culpa maiores fugiat voluptate. Qui numquam harum repellat veniam, voluptatum est cum, nihil, maxime nostrum saepe dignissimos aperiam officia non quaerat.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+    
+    
+    
+    
+    <!-- PRIMERA FORMA, PARA ENTENDER ESTO UN POCO, SI QUEREMOS SOLO EL SLIDER SIN TEXTO TENDRIAMOS QUE ELIMINAR ESTA PARTE:
+
+        <div class="slide-content">
+            <h2>Welcome to my website one</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicinelit. Qui mollitia, saepe ad deleniti quod doloraliquid illo nam nobis ipsam architecto esdoloremque magnam repellat odio iste error quasit!
+                </p>
+        </div>
+
+    SI QUEREMOS QUE SIGA TENIENDO EL TEXTO ENTONCES DEBEMOS OCULTAR  O ELIMINAR LAS IMAGENES CORRESPONDIENTES DONDE SE ENCUENTRA EL DIV "SLIDE-CONTENT"
+
+    -->  
+    
+    <!-- <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="/img/1.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="/img/2.jpg" alt="">
+                <div class="slide-content">
+                    <h2>Welcome to my website one</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui mollitia, saepe ad deleniti quod dolore aliquid illo nam nobis ipsam architecto est doloremque magnam repellat odio iste error quas sit!
+                    </p>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <img src="/img/3.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="/img/4.jpg" alt="">
+                <div class="slide-content">
+                    <h2>Welcome to my website two</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui mollitia, saepe ad deleniti quod dolore aliquid illo nam nobis ipsam architecto est doloremque magnam repellat odio iste error quas sit!
+                        </p>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <img src="/img/5.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="/img/6.jpg" alt="">
+                <div class="slide-content">
+                    <h2>Welcome to my website three</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui mollitia, saepe ad deleniti quod dolore aliquid illo nam nobis ipsam architecto est doloremque magnam repellat odio iste error quas sit!
+                        </p>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <img src="/img/7.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="/img/8.jpg" alt="">
+                <div class="slide-content">
+                    <h2>Welcome to my website four</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui mollitia, saepe ad deleniti quod dolore aliquid illo nam nobis ipsam architecto est doloremque magnam repellat odio iste error quas sit!
+                        </p>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <img src="/img/9.jpg" alt="">
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div> -->
+
+    
+    
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
